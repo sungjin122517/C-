@@ -1,7 +1,7 @@
 2021/2022 Fall C++ studies
 ----------------------------
 1. Basics
-2. if, Loops/Iterations
+2. if, loops/iterations
 3. switch, enum
 4. Function
 5. Array
