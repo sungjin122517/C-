@@ -30,7 +30,7 @@ In the binary system,
 - 8 bits = 1 byte (smallest amount of data that a computer can "bite" at once.
 - size of char datum: 1 byte
 
-**pre-increment, ++x** → add 1 to x, and use the result for further operation.
+**pre-increment, ++x** → add 1 to x, and use the result for further operation.  
 **post-increment, x++** → use the current value of x for some operation, and then add 1 to x.
 
 **shorthand notation**: '='앞에 연산부호 붙이기
