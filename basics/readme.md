@@ -8,7 +8,7 @@ int main () {...}
 int main (int argc, char** argv) {...}
 ```
 
-#include will include information of a library (a collection of sub-programs).\n
+#include will include information of a library (a collection of sub-programs).
 e.g. #include <iostream> gets the information of the standard C++ library called iostream that deals with input/output (cin, cout)
 *cerr: an object to print error message
 
