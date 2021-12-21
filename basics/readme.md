@@ -8,7 +8,7 @@ int main () {...}
 int main (int argc, char** argv) {...}
 ```
 
-#include will include information of a library (a collection of sub-programs).
+#include will include information of a library (a collection of sub-programs).\n
 e.g. #include <iostream> gets the information of the standard C++ library called iostream that deals with input/output (cin, cout)
 *cerr: an object to print error message
 
@@ -20,7 +20,6 @@ e.g. #include "???.h"
 <...> for standard C++ library
 
 **special characters**
-
 '\t' =  tab, '\n' = new line, '\b' = backspace, '\0' = null character
 
 Computer uses binary numbers (base 2) to represent data.
