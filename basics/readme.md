@@ -1,10 +1,14 @@
 ## **C++ Basics**
 
 ```cpp
+//simple form of the main function
+
 int main () {...}
 ```
 
 ```cpp
+//general form of the main function
+
 int main (int argc, char** argv) {...}
 ```
 
