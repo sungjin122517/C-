@@ -29,10 +29,8 @@ e.g. #include "???.h"
 Computer uses binary numbers (base 2) to represent data.  
 In the binary system,
 - A digit has only 2 possibilities, {0, 1}
-- e.g. $101 = 1*2^2+0*2^1+1*2^0$
 - A binary digit is aka bit.
-- 8 bits = 1 byte (smallest amount of data that a computer can "bite" at once.
-- size of char datum: 1 byte
+- 8 bits = 1 byte (smallest amount of data that a computer can "bite" at once.)
 
 **pre-increment, ++x** → add 1 to x, and use the result for further operation.  
 **post-increment, x++** → use the current value of x for some operation, and then add 1 to x.
