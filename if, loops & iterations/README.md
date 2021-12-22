@@ -43,9 +43,9 @@ grade = (percentile >= 85) ? 'A'
 				: ((percentile >= 60) ? 'B'
 					 : ((percentile >= 15) ? 'C'
 							: ((percentile >= 5) ? 'D' : 'F'
-								)
-						 )
-					);
+							  )
+					   )
+				  );
 ```
 
 ### Loops and Iterations
@@ -57,7 +57,7 @@ while (<bool-exp>)
 }
 ```
 
-- (Which loop to use?) Used when you want to repeat an action but do not know exactly how many times it will be executed.
+- (**Which loop to use?**) Used when you want to repeat an action but do not know exactly how many times it will be executed.
 
 ```cpp
 do
