@@ -29,6 +29,8 @@ else
 ![Precedence and Associativity of Boolean Operators (in decreasing order of precedence)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b26b303e-d78d-4e1b-841e-dede5c29ca42/precedence_and_associativity_2.png)
 
 ```cpp
+// if-else expression
+
 (<bool-exp>) ? <then-exp> : <else-exp>;
 ```
 
