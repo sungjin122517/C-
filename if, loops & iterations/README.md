@@ -71,9 +71,9 @@ while (<bool-exp>);
 
 ```cpp
 for (<for-initialization> ; <bool-exp> ; <post-processing>)
-	{
-		<statements>
-	}
+{
+	<statements>
+}
 ```
 
 - main idea of for statement: to control the number of iterations, usually by a counter variable.
