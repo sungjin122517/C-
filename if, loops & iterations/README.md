@@ -79,7 +79,7 @@ for (<for-initialization> ; <bool-exp> ; <post-processing>)
 - main idea of for statement: to control the number of iterations, usually by a counter variable.
 - the <post-processing> part is executed after <statements>.
 - (**Which loop to use?**) Used when you know how to specify the required number of iterations. **Also** when the counter variable is needed for computation inside the loop.
-- *remarks: <for-initialization>에서 쓰이는 variable은 for loop을 탈출하면 사라진다. 그러므로 그 variable은 다시 사용하지 못 한다.
+- *remarks:<for-initialization>에서 쓰이는 variable은 for loop을 탈출하면 사라진다. 그러므로 그 variable은 다시 사용하지 못 한다.
 
 ### Nested Loops
 
