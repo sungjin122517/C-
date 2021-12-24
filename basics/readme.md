@@ -64,7 +64,7 @@ In the binary system,
     - exponent: -2 (more exponent bits → larger real number)
 - Binary representation of mantissa: e,g,
     
-    $1.011_2 = 1\times 2^0 + 0\times 2^(-1) + 1\times 2^(-2) + 1\times 2^(-3)$
+    1.011_2 = 1 * 2^0 + 0 * 2^(-1) + 1 * 2^(-2) + 1 * 2^(-3)
     
 - Binary representation of exponent: signed integer.
 
