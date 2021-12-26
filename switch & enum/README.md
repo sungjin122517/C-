@@ -7,18 +7,18 @@ It is a variant of the if-else if statement, that allows multiple choices based 
 ```cpp
 switch (integral expression)
 {
-		case constant-1:
-				statement-sequence-1;
-				break;
-		case constant-2:
-				statement-sequence-2;
-				break;
-		...
-		case constant-N:
-				statement-sequence-N;
-				break;
-		default:    // optional
-				statement-sequence-(N+1);
+	case constant-1:
+		statement-sequence-1;
+		break;
+	case constant-2:
+		statement-sequence-2;
+		break;
+	...
+	case constant-N:
+		statement-sequence-N;
+		break;
+	default:    // optional
+		statement-sequence-(N+1);
 }
 ```
 
