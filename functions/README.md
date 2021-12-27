@@ -5,11 +5,11 @@
 ```cpp
 <return-type> <function-name>(<formal-parameter-list>)    // function header
 {
-		<function body>
+	<function body>
 }
 ```
 
-- **<formal-parameter-list>**, which is a list of comma-separated *variable declarations*, appears in the function definition.
+- <**formal-parameter-list**>, which is a list of comma-separated *variable declarations*, appears in the function definition.
 
 ```cpp
 //function call
@@ -17,7 +17,7 @@
 <function-name>(<actual-parameter-list>)
 ```
 
-- **<actual-parameter-list>**, which is a list of comma-separated *objects* passed to the called function, appears in a *function call*. (actual parameters = arguments)
+- <**actual-parameter-list**>, which is a list of comma-separated *objects* passed to the called function, appears in a *function call*. (actual parameters = arguments)
 
 **Object**: something a function returns in C++. **Only one** object is returned in C++.
 
