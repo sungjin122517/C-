@@ -27,7 +27,7 @@ The returned object may be:
 - the result of some computation, e.g. factorial, sum, etc.
 - a new object created by the function, e.g. a new window.
 
-<return-type> can be any of the C++ built-in data types or user-defined types, **EXCEPT** the *array type*.
+<**return-type**> can be any of the C++ built-in data types or user-defined types, **EXCEPT** the *array type*.
 
 The **return statement** generally returns 2 things to the caller:
 
