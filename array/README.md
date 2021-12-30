@@ -7,7 +7,7 @@
 <data-type> <array-name> [<size>];    // <size>=**positive constant**
 ```
 
-contiguous: 인접/근접한
+contiguous: 인접/근접한   
 Successive elements are stored in contiguous memory.  
 Each array element is treated like regular variable. You may:
 
@@ -62,8 +62,8 @@ An array variable is always passed by value. However, its elements are effective
 In the example code "random-element.cpp" (p.20),→
 
 ```cpp
-int element_rbv() → **//** pick up random element and **return its value.**
-int& element_rbr() → ****// pick up random element and **return access to its memory space**.
+int element_rbv() → // pick up random element and **return its value.**
+int& element_rbr() → // pick up random element and **return access to its memory space**.
 ```
 
 ### Constant array
@@ -72,7 +72,7 @@ int& element_rbr() → ****// pick up random element and **return access to its 
 - Once defined, its elements cannot be modified.
 
 One main use is in the *definition of the formal parameters of a function*:
-Array constant is declared using **const** to disallow modification of the elements of an array passed to a function.
+Array constant is declared using **const** to disallow modification of the elements of an array passed to a function.   
 Inside the function, the array is read-only. However, the original array in the caller is still writable.
 
 ## Part II. Multi-dimensional Array
@@ -85,11 +85,11 @@ Inside the function, the array is read-only. However, the original array in the 
 ```cpp
 //row by row
 int point[5][2] = {
-    {1, 1}
-		{2, 4}
-		{3, 9}
-		{4, 16}
-		{5, 25}
+	{1, 1}
+	{2, 4}
+	{3, 9}
+	{4, 16}
+	{5, 25}
 };
 
 //like 1D array
@@ -105,10 +105,10 @@ In row-major order, the last dimension index runs fastest, while the first dimen
 
 ## Part III. C String: Special 1D Character Array
 
-Representing a character string (C string) by a 1D character array: adding the null character **'\0'** after the last character of the string.
+Representing a character string (C string) by a 1D character array: adding the null character **'\0'** after the last character of the string.   
 For a string of length N, '\0' becomes the (N+1)th element of its char array.
 
-Another notation using the double quotes:
+Another notation using the double quotes:   
 "hkust" = 'h' 'k' 'u' 's' 't' '\0'
 
 ### Reading C strings with cin
