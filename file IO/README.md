@@ -1,4 +1,4 @@
-In general, C++ allows you to input/output data to/from files and devices (e.g. printer, hard disk, USB) using an abstraction called **stream**.
+In general, C++ allows you to _input/output data to/from files and devices_ (e.g. printer, hard disk, USB) using an abstraction called **stream**.
 
 **stream**: a sequence of characters.
 
@@ -10,8 +10,8 @@ To perform I/O, create a **stream object** (from various stream classes) for eac
 
 These **stream objects** all support the 2 basic input/output operators: >>, <<
 
-- >> and << convert input/output data of the required type from/to a sequence of characters.
-- The input operator >> always skip whitespaces (spaces, tabs, newlines, formfeeds, carriage returns) before reading the next datum.
+- >> and << _convert input/output data_ of the required type _from/to a sequence of characters_.
+- The input operator >> _always skip whitespaces_ (spaces, tabs, newlines, formfeeds, carriage returns) before reading the next datum.
 
 ### Common stream member functions
 
@@ -31,7 +31,7 @@ Stream objects of various stream classes support the following **class member fu
 
 ### Interactive stream: iostream
 
-**"iostream" = "istream" + "ostream"**
+<mark>**"iostream" = "istream" + "ostream"**</mark>   
 
 _istream cin_: standard (or console) input, by default = keyboard
 
