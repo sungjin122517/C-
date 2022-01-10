@@ -61,7 +61,7 @@ To get the number of characters in a string object,
 Two ways to get the jth character of a string object:
 1. use the subscript operator [] like the C strings
 	 0 <= j <= length()-1 (don't have to worry about the terminating NULL character,
-													 which will be handled by the class.)
+				which will be handled by the class.)
 	 if the index j > length()-1, the behaviour is undefined.
 2. member function at()
 	string s = "hkust";
