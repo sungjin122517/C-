@@ -25,7 +25,7 @@ post-increment (x++++++) -> return rvalue (return by value)
 ```
 
 예를 들어 x에 20이라는 숫자를 assign한다.
-x=20은 int니깐 4 bytes. (20을 저장하려면 4개의 주소/memory space가 필요하다)
+x=20은 int니깐 4 bytes. (20을 저장하려면 4개의 주소/memory space가 필요하다)  
 20의 주소를 불러오고 싶다 → 주소가 0 1 2 3 이렇게 네 개가 있을텐데
 불러오고 싶다면 starting address인 0만 불러오면 된다.
 
@@ -135,7 +135,7 @@ The pointer variables are static objects. Only the unnamed memories returned by 
 
 **Common bug**
 
-1. **Dangling pointer:** delete를 통해서 memory는 release 했지만 pointer variable still holds the address of the previously allocated unnamed memory.
+1. **Dangling pointer:** delete를 통해서 memory는 release 했지만 pointer variable still holds the address of the previously allocated unnamed memory.   
 Runtime error usually occurs when you try to dereference a dangling pointer.
     
     그래서 가지고 있으면 좋은 습관: always initialize a pointer to nullptr when defining a pointer variable, and always check whether a pointer is a nullptr before using it.
@@ -147,13 +147,13 @@ Runtime error usually occurs when you try to dereference a dangling pointer.
 
 List: linear sequence of objects.
 
-You may implement a list by an **array**.
-**adv**: array works well with **loops** and **recursion.
+You may implement a list by an **array**.   
+**adv**: array works well with **loops** and **recursion.   
 disadv**: **size** of the array is determined in advance.
 
 **Linked list**
 
-**adv**: It is *dynamic*; it grows and shrinks to any size as you want at runtime.
+**adv**: It is *dynamic*; it grows and shrinks to any size as you want at runtime.   
 **disadv**: *requires additional memory* for the linking pointers, and *takes more time* to manipulate its items.
 
 **node**: each object in a linked list
