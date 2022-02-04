@@ -169,4 +169,59 @@ struct ll_node {
 
 last node→ its next pointer is set to nullptr to tell that it is the end of the linked list.
 
-pointer variable(head) required to point to the first node.
+pointer variable(head) required to point to the first node.   
+
+### 2021.11.15 월
+
+### Linked list
+
+**Create linked list**
+
+1. create new node and add to head or tail.
+
+```cpp
+//adding to the head
+new_node->next = head;
+head = new_node;
+```
+
+```cpp
+//adding to the tail
+1. create new_node
+2. check whether p is pointing to the last node
+	if p->next == nullptr
+3. p->next = new_node;
+```
+
+**Insert a new node**
+
+```cpp
+1. create new_node
+2. spot insertion point using working pointer p
+3. point new node to p->next (new_node->next = p->next)
+4. p→next = new_node
+```
+
+**Delete a node**
+
+```cpp
+1. search for specific node to be deleted
+2. p = node to be deleted
+3. prev->next = p→next;
+4. delete p;
+5. p = nullptr;
+```
+
+### 2021.11.19 금
+
+**Delete all nodes in the linked list**
+
+```cpp
+while (head != nullptr) {
+		p = head;
+		head = head->next;
+		delete p;
+}
+```
+
+variable에 각 array element 주소를 저장해서 각 element를 변형할 수 있다.
